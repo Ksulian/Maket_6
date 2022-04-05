@@ -1,0 +1,156 @@
+@font-face {
+    font-family: "Karla";
+    src: url('../fonts/Karla-Bold.ttf') format('truetype');
+    font-weight: 700;
+}
+@font-face {
+    font-family: "Karla";
+    src: url('../fonts/Karla-Regular.ttf') format('truetype');
+    font-weight: 400;
+}
+@font-face{
+    font-family: "Poppins";
+    src: url('../fonts/Poppins-Regular.ttf') format('truetype');
+    font-weight: 400;
+}
+@font-face{
+    font-family: "Georgia";
+    src: url('../fonts/Georgia_regular.ttf') format('truetype');
+    font-weight: 400;
+}
+@font-face{
+    font-family: "Palatino Linotype";
+    src: url('../fonts/Palatino_Linotype.ttf') format('truetype');
+    font-weight: 400;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: "Karla";
+    font-weight: 400;
+    overflow-x: hidden;
+}
+.container{
+    margin: 0 auto;
+    width: 950px;
+}
+
+/* секция header */
+/* класс, в котором располагается шапка, делаю ее горизонтаьной и растянутой */
+.header_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+/* от иконки корзины отступ слева и справа */
+.nav_icon{
+    margin-left: 20px;
+    margin-right: 10px;
+}
+/* настройка шрифта тегов а */
+.nav_a{
+    display: flex;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #1D1F2E;
+    margin-right: 30px;
+}
+/* подчеркивание при наведении на тег */
+.nav_a:hover{
+    text-decoration: underline;
+}
+/* класс, в котором располагаются теги а, делаю его горизонтаьной */
+.nav{
+    display: flex;
+}
+/* для суммы горзины настройка шрифтов, и заднего фона*/
+.nav_sum{
+    margin-left: 10px;
+    background: #1D1F2E;
+    border-radius: 9px;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 18px;
+    width: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/* секция main */
+/* вставка заднего фона для класса */
+.main_back{
+    margin: 0 auto;
+    width: 1380px;
+    background: url('../img/photos/main_photo.png') no-repeat center center / cover;
+}
+/* класс, в котором весь текст будет по центру, отступы сверху и снизу */
+.main_wrapper{
+    text-align: center;
+    padding: 160px 0;
+}
+/*  */
+.main_intro{
+    margin-bottom: 10px;
+    font-family: 'Karla';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.main_title{
+    font-family: 'Karla';
+    font-weight: 400;
+    font-size: 47px;
+    line-height: 60px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+.main_subtitle{
+    font-family: 'Karla';
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 30px;
+    margin-bottom: 40px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.main_btn{
+    font-family: 'Karla';
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #1D1F2E;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 6px rgba(29, 31, 46, 0.1);
+    border-radius: 0px;
+    Width:231px;
+    Height:33px;
+    border: none;
+    cursor: pointer;
+}
+.main_btn:hover{
+    box-shadow: 0 0 10px #FFFFFF;
+}
