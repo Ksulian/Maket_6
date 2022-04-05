@@ -196,3 +196,84 @@ body{
 .story_a:hover{
     text-decoration: underline;
 }
+
+/* секция mugs */
+/* настройка текста по центру, нижний отступ от секции */
+.mugs_wrapper{
+    text-align: center;
+    margin-bottom: 100px;
+}
+.mugs_block{
+    display: grid;
+}
+/* настройка шрифта заголовка, нижнего отступа */
+.mugs_title{
+    margin-bottom: 100px;
+    font-family: 'Karla';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #1D1F2E;
+}
+/* настройка карточек по горизонтали */
+.mugs_blocks{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* настройка шрифта названия продукта */
+.name_of_mug{
+    margin-top: 35px;
+    margin-bottom: 5px;
+    font-family: 'Karla';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #1D1F2E;
+}
+.name_of_mug:hover{
+    text-decoration: underline;
+}
+/* настройка шрифта цены */
+.mugs_sum{
+    font-family: 'Karla';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: rgba(29, 31, 46, 0.7);    
+}
+/* время, с которфм будет увеличиваться фотография */
+.photo{
+    transition: 1s;
+}
+/* увеличение фотографии при наведении, задняя тень */
+.photo:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #A25F4B;
+}
+/* настройка цен (их расположение) */
+.mugs_sums{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* настройка шрифта настоящей цены */
+.mug_sum_real{
+    margin-right: 10px;
+    font-family: 'Karla';
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 32px;
+    color: #A25F4B;
+}
+/* настройка шрифта прошлой цены */
+.mug_sum_unreal{
+    font-family: 'Karla';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    text-decoration-line: line-through;
+    color: rgba(29, 31, 46, 0.4);    
+}
