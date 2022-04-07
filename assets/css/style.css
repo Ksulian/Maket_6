@@ -418,3 +418,10 @@ body{
 .free_btn:hover{
     box-shadow: 0 0 10px #1D1F2E;
 }
+
+/* секция background */
+.background{ /* отступ от секции, установка изображения и высоты */
+    margin-bottom: 100px;
+    background: url('../img/photos/main2_photo.jpg') no-repeat center center/ cover;
+    height: 340px;
+}
