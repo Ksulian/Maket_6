@@ -249,6 +249,9 @@ body{
     text-decoration-line: line-through;
     color: rgba(29, 31, 46, 0.4);    
 }
+.num{
+    color: transparent;
+}
 
 /* секция products */
 .products_wrapper{ /* отступ от секции */
@@ -313,7 +316,7 @@ body{
     font-weight: 400;
     font-size: 16px;
     line-height: 28px;
-    text-align: cente/r;
+    text-align: center;
     text-decoration-line: line-through;
     color: rgba(29, 31, 46, 0.4);    
 }
