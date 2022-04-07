@@ -44,20 +44,17 @@ body{
 }
 
 /* секция header */
-/* класс, в котором располагается шапка, делаю ее горизонтаьной и растянутой */
-.header_wrapper{
+.header_wrapper{ /* класс, в котором располагается шапка, делаю ее горизонтаьной и растянутой */
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 30px 0;
 }
-/* от иконки корзины отступ слева и справа */
-.nav_icon{
+.nav_icon{ /* от иконки корзины отступ слева и справа */
     margin-left: 20px;
     margin-right: 10px;
 }
-/* настройка шрифта тегов а */
-.nav_a{
+.nav_a{ /* настройка шрифта тегов а */
     display: flex;
     font-family: 'Karla';
     font-style: normal;
@@ -69,16 +66,13 @@ body{
     color: #1D1F2E;
     margin-right: 30px;
 }
-/* подчеркивание при наведении на тег */
-.nav_a:hover{
+.nav_a:hover{ /* подчеркивание при наведении на тег */
     text-decoration: underline;
 }
-/* класс, в котором располагаются теги а, делаю его горизонтаьной */
-.nav{
+.nav{ /* класс, в котором располагаются теги а, делаю его горизонтаьной */
     display: flex;
 }
-/* для суммы горзины настройка шрифтов, и заднего фона*/
-.nav_sum{
+.nav_sum{ /* для суммы горзины настройка шрифтов, и заднего фона*/
     margin-left: 10px;
     background: #1D1F2E;
     border-radius: 9px;
@@ -93,19 +87,16 @@ body{
 }
 
 /* секция main */
-/* вставка заднего фона для класса */
-.main_back{
+.main_back{ /* вставка заднего фона для класса */
     margin: 0 auto;
     width: 1380px;
     background: url('../img/photos/main_photo.png') no-repeat center center / cover;
 }
-/* класс, в котором весь текст будет по центру, отступы сверху и снизу */
-.main_wrapper{
+.main_wrapper{ /* класс, в котором весь текст будет по центру, отступы сверху и снизу */
     text-align: center;
     padding: 160px 0;
 }
-/* настройка предзаголовка (свойства текста) */
-.main_intro{
+.main_intro{ /* настройка предзаголовка (свойства текста) */
     margin-bottom: 10px;
     font-family: 'Karla';
     font-weight: 400;
@@ -116,8 +107,7 @@ body{
     text-transform: uppercase;
     color: #FFFFFF;
 }
-/* настройка заголовка */
-.main_title{
+.main_title{ /* настройка заголовка */
     font-family: 'Karla';
     font-weight: 400;
     font-size: 47px;
@@ -126,8 +116,7 @@ body{
     color: #FFFFFF;
     margin-bottom: 10px;
 }
-/* подзаголовка */
-.main_subtitle{
+.main_subtitle{ /* подзаголовка */
     font-family: 'Karla';
     font-weight: 400;
     font-size: 17px;
@@ -136,8 +125,7 @@ body{
     text-align: center;
     color: #FFFFFF;
 }
-/* настройка кнопки, текста в ней */
-.main_btn{
+.main_btn{ /* настройка кнопки, текста в ней */
     font-family: 'Karla';
     font-weight: 700;
     font-size: 12px;
@@ -154,19 +142,16 @@ body{
     border: none;
     cursor: pointer;
 }
-/* изменение свойств кнопки при наведении */
-.main_btn:hover{
+.main_btn:hover{ /* изменение свойств кнопки при наведении */
     box-shadow: 0 0 10px #FFFFFF;
 }
 
 /* секция story */
-/* настройка текста по центру, отступы сверху и снизу */
-.story_wrapper{
+.story_wrapper{ /* настройка текста по центру, отступы сверху и снизу */
     text-align: center;
     margin: 100px 0;
 }
-/* настройка шрифта заголовка */
-.story_title{
+.story_title{ /* настройка шрифта заголовка */
     margin-bottom: 16px;
     font-family: 'Karla';
     font-weight: 400;
@@ -174,8 +159,7 @@ body{
     line-height: 40px;
     color: #1D1F2E;
 }
-/* настройка шрифта текста секции */
-.story_text{
+.story_text{ /* настройка шрифта текста секции */
     margin-bottom: 20px;
     font-family: 'Karla';
     font-style: normal;
@@ -184,30 +168,26 @@ body{
     line-height: 28px;
     color: rgba(29, 31, 46, 0.7);
 }
-/* настройка шрифта тега а */
-.story_a{
+.story_a{ /* настройка шрифта тега а */
     font-family: 'Karla';
     font-weight: 400;
     font-size: 15px;
     line-height: 28px;
     color: #A25F4B;
 }
-/* изменение свойств при наведении */
-.story_a:hover{
+.story_a:hover{ /* изменение свойств при наведении */
     text-decoration: underline;
 }
 
 /* секция mugs */
-/* настройка текста по центру, нижний отступ от секции */
-.mugs_wrapper{
+.mugs_wrapper{ /* настройка текста по центру, нижний отступ от секции */
     text-align: center;
     margin-bottom: 100px;
 }
 .mugs_block{
     display: grid;
 }
-/* настройка шрифта заголовка, нижнего отступа */
-.mugs_title{
+.mugs_title{ /* настройка шрифта заголовка, нижнего отступа */
     margin-bottom: 100px;
     font-family: 'Karla';
     font-weight: 400;
@@ -217,14 +197,12 @@ body{
     text-transform: uppercase;
     color: #1D1F2E;
 }
-/* настройка карточек по горизонтали */
-.mugs_blocks{
+.mugs_blocks{ /* настройка карточек по горизонтали */
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-/* настройка шрифта названия продукта */
-.name_of_mug{
+.name_of_mug{ /* настройка шрифта названия продукта */
     margin-top: 35px;
     margin-bottom: 5px;
     font-family: 'Karla';
@@ -233,34 +211,29 @@ body{
     line-height: 30px;
     color: #1D1F2E;
 }
-.name_of_mug:hover{
+.name_of_mug:hover{ /* подчеркивание при наведении */
     text-decoration: underline;
 }
-/* настройка шрифта цены */
-.mugs_sum{
+.mugs_sum{ /* настройка шрифта цены */
     font-family: 'Karla';
     font-weight: 400;
     font-size: 16px;
     line-height: 28px;
     color: rgba(29, 31, 46, 0.7);    
 }
-/* время, с которфм будет увеличиваться фотография */
-.photo{
+.photo{ /* время, с которфм будет увеличиваться фотография */
     transition: 1s;
 }
-/* увеличение фотографии при наведении, задняя тень */
-.photo:hover{
+.photo:hover{ /* увеличение фотографии при наведении, задняя тень */
     transform: scale(1.05);
     box-shadow: 0 0 20px #A25F4B;
 }
-/* настройка цен (их расположение) */
-.mugs_sums{
+.mugs_sums{ /* настройка цен (их расположение) */
     display: flex;
     align-items: center;
     justify-content: center;
 }
-/* настройка шрифта настоящей цены */
-.mug_sum_real{
+.mug_sum_real{ /* настройка шрифта настоящей цены */
     margin-right: 10px;
     font-family: 'Karla';
     font-weight: 400;
@@ -268,12 +241,82 @@ body{
     line-height: 32px;
     color: #A25F4B;
 }
-/* настройка шрифта прошлой цены */
-.mug_sum_unreal{
+.mug_sum_unreal{ /* настройка шрифта прошлой цены */
     font-family: 'Karla';
     font-weight: 400;
     font-size: 16px;
     line-height: 28px;
     text-decoration-line: line-through;
     color: rgba(29, 31, 46, 0.4);    
+}
+
+/* секция products */
+.products_wrapper{ /* отступ от секции */
+    margin-bottom: 30px;
+}
+.products_title{ /* настройка шрифта заголовка */
+    margin-bottom: 100px;
+    font-family: 'Karla';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #1D1F2E;
+}
+.products_blocks{ /* расположение блоков */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.products_block{ /* расположение элементов внутри блока */
+    display: grid;
+}
+.name_of_prod{ /* шрифт названия продукта */
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #1D1F2E;
+    margin-top: 20px;
+}
+.name_of_prod:hover{ /* свойство при наведении */
+    text-decoration: underline;
+}
+.products_sums{ /* расположение цен */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.products_sum_real{ /* шрифт настоящей цены */
+    font-family: 'Karla';
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 32px;
+    text-align: center;
+    color: #A25F4B;
+    margin-right: 10px;
+}
+.products_sum{ /* шрифт цены */
+    font-family: 'Karla';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: rgba(29, 31, 46, 0.7);
+}
+.products_sum_unreal{ /* шрифт ненастоящей цены */
+    font-family: 'Karla';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: cente/r;
+    text-decoration-line: line-through;
+    color: rgba(29, 31, 46, 0.4);    
+}
+.products_blocks{ /* отступ блоков снизу */
+    margin-bottom: 70px;
 }
