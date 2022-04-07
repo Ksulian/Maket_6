@@ -322,11 +322,10 @@ body{
 }
 
 /* секция free */
-.free_wrapper{
+.free_wrapper{  /* отступ от секции */
     margin-bottom: 100px;
 }
-/* настройки текста */
-.free_title{
+.free_title{ /* настройки текста */
     text-align: center;
     margin-bottom: 100px;
     font-family: 'Karla';
@@ -337,38 +336,31 @@ body{
     text-transform: uppercase;
     color: #1D1F2E;
 }
-/* настройки расположения */
-.free_content{
+.free_content{ /* настройки расположения */
     display: flex;
     align-items: center;
     justify-content: center;
 }
-/* выравнивание по горизонтали */
-.free_photos{
+.free_photos{ /* выравнивание по горизонтали */
     display: flex;
 }
-/* отступ от картинок */
-.free_photo{
+.free_photo{ /* отступ от картинок */
     margin-right: 20px;
 }
-/* выравнивание по вертикали */
-.free_photo2{
+.free_photo2{ /* выравнивание по вертикали */
     display: grid;
 }
-/* отступ сверху */
-.white_all{
+.white_all{ /* отступ сверху */
     margin-top: 12px;
     transition: 1s;
 }
 .white_all:hover{
     transform: scale(1.1);
 }
-/* отступ влево */
-.free_texts{
+.free_texts{ /* отступ влево */
     margin-left: 100px;
 }
-/* настройки текста */
-.free_intro{
+.free_intro{ /* настройки текста */
     font-family: 'Karla';
     font-weight: 400;
     font-size: 12px;
@@ -377,8 +369,7 @@ body{
     text-transform: uppercase;
     color: #1D1F2E;
 }
-/* настройки текста */
-.free_title2{
+.free_title2{ /* настройки текста */
     margin: 20px 0;
     font-family: 'Karla';
     font-weight: 400;
@@ -386,8 +377,7 @@ body{
     line-height: 50px;
     color: #1D1F2E;
 }
-/* настройки текста */
-.free_text{
+.free_text{ /* настройки текста */
     margin-bottom: 20px;
     font-family: 'Karla';
     font-style: normal;
@@ -396,8 +386,7 @@ body{
     line-height: 28px;
     color: rgba(29, 31, 46, 0.7);
 }
-/* настройки текста кнопки */
-.free_btn{
+.free_btn{ /* настройки текста кнопки */
     font-family: 'Karla';
     font-style: normal;
     font-weight: 400;
@@ -414,7 +403,6 @@ body{
     background: #1D1F2E;
     border-radius: 0px;
 }
-/* тень */
 .free_btn:hover{
     box-shadow: 0 0 10px #1D1F2E;
 }
@@ -533,7 +521,7 @@ body{
     border: 1px solid #2F303E;
     color: #FFFFFF;
 }
-.bags_btn{
+.bags_btn{ /* свойства кнопки */
     font-size: 12px;
     width: 129px;
     height: 54px;
@@ -547,4 +535,66 @@ body{
 }
 .bags_btn:hover{
     box-shadow: 0 0 10px #FFFFFF;
+}
+
+/* секция footer */
+.footer_wrapper{ /* расположение объектов в футере */
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.footer_title{ /* настройки текста */
+    margin-top: 30px;
+    margin-bottom: 75px;
+    font-family: 'Karla';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: rgba(29, 31, 46, 0.7);
+}
+.footer_inc{ /* настройки текста */
+    font-family: 'Karla';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: rgba(29, 31, 46, 0.3);
+}
+.footer_name{ /* настройки текста */
+    margin-bottom: 30px;
+    font-family: 'Karla';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #1D1F2E;
+}
+.footer_link{ /* настройки текста */
+    margin-bottom: 15px;
+    font-family: 'Karla';
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 22px;
+    color: rgba(29, 31, 46, 0.7);
+}
+.footer_link:hover{
+    text-decoration: underline;
+}
+.footer_text{ /* настройки текста */
+    margin: 30px 0;
+    font-family: 'Karla';
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 36px;
+    color: #1D1F2E;
+}
+.footer_text2{ /* настройки текста */
+    font-family: 'Karla';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: rgba(29, 31, 46, 0.3);
+}
+.footer_bl{
+    display: grid;
 }
