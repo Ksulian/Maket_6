@@ -320,3 +320,101 @@ body{
 .products_blocks{ /* отступ блоков снизу */
     margin-bottom: 70px;
 }
+
+/* секция free */
+.free_wrapper{
+    margin-bottom: 100px;
+}
+/* настройки текста */
+.free_title{
+    text-align: center;
+    margin-bottom: 100px;
+    font-family: 'Karla';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #1D1F2E;
+}
+/* настройки расположения */
+.free_content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* выравнивание по горизонтали */
+.free_photos{
+    display: flex;
+}
+/* отступ от картинок */
+.free_photo{
+    margin-right: 20px;
+}
+/* выравнивание по вертикали */
+.free_photo2{
+    display: grid;
+}
+/* отступ сверху */
+.white_all{
+    margin-top: 12px;
+    transition: 1s;
+}
+.white_all:hover{
+    transform: scale(1.1);
+}
+/* отступ влево */
+.free_texts{
+    margin-left: 100px;
+}
+/* настройки текста */
+.free_intro{
+    font-family: 'Karla';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #1D1F2E;
+}
+/* настройки текста */
+.free_title2{
+    margin: 20px 0;
+    font-family: 'Karla';
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 50px;
+    color: #1D1F2E;
+}
+/* настройки текста */
+.free_text{
+    margin-bottom: 20px;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: rgba(29, 31, 46, 0.7);
+}
+/* настройки текста кнопки */
+.free_btn{
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    width: 173px;
+    height: 35px;
+    cursor: pointer;
+    border: none;
+    background: #1D1F2E;
+    border-radius: 0px;
+}
+/* тень */
+.free_btn:hover{
+    box-shadow: 0 0 10px #1D1F2E;
+}
